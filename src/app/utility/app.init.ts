@@ -5,7 +5,7 @@ export function initializeKeycloak(keycloak: KeycloakService) : () => Promise<bo
     return () =>
       keycloak.init({
         config: {
-          url: 'https://auth.eu.yuuvis.io/auth/realms/itelligence1/protocol/openid-connect/auth?client_id=yuuvis-authentication-service&redirect_uri=https://eu.yuuvis.io/oauth/itelligence1&response_type=code&state=lmphK3',
+          url: 'https://auth.eu.yuuvis.io',
           realm: 'itelligence1',
           clientId: 'test-app',
         },
