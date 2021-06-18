@@ -20,4 +20,4 @@ export function initializeKeycloak(keycloak: KeycloakService) : () => Promise<bo
         //     window.location.origin + '/assets/silent-check-sso.html',
         // }
       });
-  }
+}
