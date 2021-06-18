@@ -6,6 +6,7 @@ export function initializeKeycloak(keycloak: KeycloakService) : () => Promise<bo
       keycloak.init({
         config: {
           url: 'https://auth.eu.yuuvis.io/auth/',
+          //url: 'http://localhost:8080/auth',
           realm: 'itelligence1',
           clientId: 'test-app',
         },
